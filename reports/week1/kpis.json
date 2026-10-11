@@ -1,0 +1,259 @@
+{
+  "total_leads": 5000,
+  "status_counts": {
+    "Open": 2424,
+    "Lost": 1527,
+    "Won": 1049
+  },
+  "closed_leads": 2576,
+  "win_rate_among_closed": 0.4072204968944099,
+  "won_share_of_all_leads": 0.2098,
+  "days_to_close_won": {
+    "n": 1049,
+    "mean": 64.61868446139181,
+    "median": 66.0,
+    "p25": 53.0,
+    "p75": 77.0,
+    "min": 1.0,
+    "max": 89.0
+  },
+  "days_to_close_lost_known": {
+    "n": 1168,
+    "mean": 47.85017123287671,
+    "median": 47.0
+  },
+  "lost_without_closing_date": 359,
+  "open_leads_age_days": {
+    "mean": 103.42945544554455,
+    "median": 103.0
+  },
+  "observation_end": "2024-04-28",
+  "lead_created_range": [
+    "2024-01-01",
+    "2024-01-30"
+  ],
+  "stage_counts_final": {
+    "negotiation": 2313,
+    "closed_lost": 1527,
+    "closed_won": 1049,
+    "proposal_sent": 68,
+    "demo_completed": 30,
+    "demo_scheduled": 11,
+    "sql": 2
+  },
+  "deal_value": {
+    "share_leads_with_value": 0.9282,
+    "won_total": 64214711.0,
+    "open_total": 149039670.0,
+    "won_median": 49579.0,
+    "lost_median": 48640.0
+  },
+  "milestones_won_median_days": {
+    "lead_to_opportunity": 13.0,
+    "opportunity_to_close": 50.0
+  },
+  "milestone_counts": {
+    "all_leads": 5000,
+    "sales_activity_within_snapshot": 4550,
+    "meeting_set_within_snapshot": 2686,
+    "demo_done_within_snapshot": 2674,
+    "opportunity_created": 4641,
+    "won": 1049
+  },
+  "win_rate_by": {
+    "lead_source": [
+      {
+        "lead_source": "sdr_outbound",
+        "closed": 891,
+        "won": 374.0,
+        "win_rate": 0.4198
+      },
+      {
+        "lead_source": "inbound_marketing",
+        "closed": 1203,
+        "won": 501.0,
+        "win_rate": 0.4165
+      },
+      {
+        "lead_source": "partner_referral",
+        "closed": 482,
+        "won": 174.0,
+        "win_rate": 0.361
+      }
+    ],
+    "industry": [
+      {
+        "industry": "manufacturing",
+        "closed": 667,
+        "won": 304.0,
+        "win_rate": 0.4558
+      },
+      {
+        "industry": "healthcare_non_clinical",
+        "closed": 646,
+        "won": 264.0,
+        "win_rate": 0.4087
+      },
+      {
+        "industry": "professional_services",
+        "closed": 635,
+        "won": 245.0,
+        "win_rate": 0.3858
+      },
+      {
+        "industry": "logistics",
+        "closed": 628,
+        "won": 236.0,
+        "win_rate": 0.3758
+      }
+    ],
+    "region": [
+      {
+        "region": "US",
+        "closed": 1234,
+        "won": 508.0,
+        "win_rate": 0.4117
+      },
+      {
+        "region": "UK",
+        "closed": 1342,
+        "won": 541.0,
+        "win_rate": 0.4031
+      }
+    ],
+    "employee_band": [
+      {
+        "employee_band": "2000+",
+        "closed": 257,
+        "won": 112.0,
+        "win_rate": 0.4358
+      },
+      {
+        "employee_band": "200-499",
+        "closed": 945,
+        "won": 395.0,
+        "win_rate": 0.418
+      },
+      {
+        "employee_band": "500-999",
+        "closed": 881,
+        "won": 354.0,
+        "win_rate": 0.4018
+      },
+      {
+        "employee_band": "1000-1999",
+        "closed": 493,
+        "won": 188.0,
+        "win_rate": 0.3813
+      }
+    ],
+    "estimated_revenue_band": [
+      {
+        "estimated_revenue_band": "$200M+",
+        "closed": 250,
+        "won": 108.0,
+        "win_rate": 0.432
+      },
+      {
+        "estimated_revenue_band": "$10M-$50M",
+        "closed": 983,
+        "won": 408.0,
+        "win_rate": 0.4151
+      },
+      {
+        "estimated_revenue_band": "$1M-$10M",
+        "closed": 670,
+        "won": 267.0,
+        "win_rate": 0.3985
+      },
+      {
+        "estimated_revenue_band": "$50M-$200M",
+        "closed": 673,
+        "won": 266.0,
+        "win_rate": 0.3952
+      }
+    ],
+    "owner_rep_id": [
+      {
+        "owner_rep_id": "rep_000009",
+        "closed": 273,
+        "won": 119.0,
+        "win_rate": 0.4359
+      },
+      {
+        "owner_rep_id": "rep_000007",
+        "closed": 264,
+        "won": 113.0,
+        "win_rate": 0.428
+      },
+      {
+        "owner_rep_id": "rep_000004",
+        "closed": 251,
+        "won": 104.0,
+        "win_rate": 0.4143
+      },
+      {
+        "owner_rep_id": "rep_000001",
+        "closed": 275,
+        "won": 113.0,
+        "win_rate": 0.4109
+      },
+      {
+        "owner_rep_id": "rep_000008",
+        "closed": 247,
+        "won": 101.0,
+        "win_rate": 0.4089
+      },
+      {
+        "owner_rep_id": "rep_000010",
+        "closed": 233,
+        "won": 95.0,
+        "win_rate": 0.4077
+      },
+      {
+        "owner_rep_id": "rep_000002",
+        "closed": 243,
+        "won": 96.0,
+        "win_rate": 0.3951
+      },
+      {
+        "owner_rep_id": "rep_000003",
+        "closed": 260,
+        "won": 102.0,
+        "win_rate": 0.3923
+      },
+      {
+        "owner_rep_id": "rep_000005",
+        "closed": 268,
+        "won": 105.0,
+        "win_rate": 0.3918
+      },
+      {
+        "owner_rep_id": "rep_000006",
+        "closed": 262,
+        "won": 101.0,
+        "win_rate": 0.3855
+      }
+    ],
+    "first_touch_channel": [
+      {
+        "first_touch_channel": "sdr_outbound",
+        "closed": 891,
+        "won": 374.0,
+        "win_rate": 0.4198
+      },
+      {
+        "first_touch_channel": "inbound_marketing",
+        "closed": 1203,
+        "won": 501.0,
+        "win_rate": 0.4165
+      },
+      {
+        "first_touch_channel": "partner_referral",
+        "closed": 482,
+        "won": 174.0,
+        "win_rate": 0.361
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+# Week 1 dependencies. "Tested with" = versions used when this code was run.
+# Pin exact versions in later weeks once the full stack is chosen and tested together.
+leadforge==1.0.0        # synthetic CRM data generator (MIT). Requires Python >= 3.11
+pandas>=2.2             # tested with 2.3.3
+numpy>=1.26             # tested with 2.4.4
+pyarrow>=15             # tested with 25.0.1 (parquet I/O)
+matplotlib>=3.8         # tested with 3.10.8
+seaborn>=0.13           # tested with 0.13.2
+pytest>=8               # tests

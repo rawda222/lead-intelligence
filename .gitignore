@@ -1,0 +1,22 @@
+﻿
+# Environments and secrets
+crm/
+.venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated datasets
+data/raw/
+*.parquet
+
+# Local artifacts
+mlruns/
+*.log
